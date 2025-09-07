@@ -11,16 +11,6 @@
       "id": "1"
     },
     {
-      "id": "2",
-      "Name": "Salman Khan",
-      "Parentname": "Saleem Khan",
-      "Age": "59",
-      "Sex": "Male",
-      "Hometown": "Indore, MP",
-      "Industry": "Bollywood Actor",
-      "Best": "Tiger"
-    },
-    {
       "id": "3",
       "Name": "Virat Kohli",
       "Parentname": "Saroj Kohli",

@@ -6,7 +6,7 @@ import {addUser} from '../services/api'
 
 const Container = styled(FormGroup)`
     width: 100%;
-    margin: 15% auto;
+    margin: 5% auto;
 
     & > div {
         margin-top: 20px;
