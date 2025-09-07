@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import {addUser} from '../services/api'
 
 const Container = styled(FormGroup)`
-    width: 100%;
-    margin: 5% auto;
+    width: 90%;
+    margin: 5%;
 
     & > div {
         margin-top: 20px;

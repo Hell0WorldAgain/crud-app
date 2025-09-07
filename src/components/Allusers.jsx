@@ -8,8 +8,8 @@ import { getUser, deleteUser } from '../services/api';
 
 
 const TableTab = styled(Table)`
-    margin-top:10%;
-    width: 100%;
+    margin:10%;
+    width: 80%;
 
     & > thead {
         background-color:#000;

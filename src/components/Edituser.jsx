@@ -5,8 +5,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { getUserByID, editUser } from '../services/api'
 
 const Container = styled(FormGroup)`
-    width: 100%;
-    margin: 15% auto;
+    width: 90%;
 
     & > div {
         margin-top: 20px;

@@ -4,7 +4,7 @@ import { Typography } from '@mui/material';
 
 const Home = () => {
     return (
-        <div style={{textAlign: 'center', margin: '5% auto',width: '70%' }}>
+        <div style={{textAlign: 'center', margin: '5% auto',width: '90%' }}>
             <Typography variant="h2">Hi, there!</Typography>
             <br /> <br />
             <Typography variant="h4">Welcome to the Celebrity Directory!</Typography>
