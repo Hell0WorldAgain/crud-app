@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3002/users' ;
+const API_URL = 'https://json-server-backend-hnho.onrender.com/users' ;
 
 export const addUser = async(data) => {
     try {
