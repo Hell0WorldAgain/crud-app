@@ -8,7 +8,8 @@
       "Country": "India",
       "Industry": "Bollywood Actor",
       "Best": "Dilwale",
-      "id": "1"
+      "id": "1",
+      "City": "India"
     },
     {
       "id": "3",
@@ -18,7 +19,8 @@
       "Sex": "Male",
       "Country": "India",
       "Industry": "Indian Cricketer",
-      "Best": "765 runs & POTT in 2023 ODI world cup"
+      "Best": "765 runs & POTT in 2023 ODI world cup",
+      "City": "India"
     },
     {
       "id": "9796",
@@ -28,7 +30,8 @@
       "Sex": "Female",
       "Country": "India",
       "Industry": "Bollywood Actress",
-      "Best": "Kahani"
+      "Best": "Dirty Picture",
+      "City": "Kerala, India"
     },
     {
       "id": "515f",
@@ -38,7 +41,8 @@
       "Sex": "Female",
       "Country": "Russia",
       "Industry": "International Tennis Player",
-      "Best": "Won all four major tournaments"
+      "Best": "Won all four major tournaments",
+      "City": "Russia"
     }
   ]
 }

@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Table, TableHead, TableBody, TableRow, TableCell, styled, Button } from '@mui/material';
+import EditIcon  from '@mui/icons-material/Edit';
+import DeleteIcon from '@mui/icons-material/Delete';
 import { Link } from 'react-router-dom';
 
 import { getUser, deleteUser } from '../services/api';
@@ -54,7 +56,7 @@ const Allusers = () => {
             <TableBody>
                 {
                     users.map(user => (
-                        <TableRow key={user.id}>
+                        <TableRow key={user.id}> 
                             <TableCell>{user.Name}</TableCell>
                             <TableCell>{user.Parentname}</TableCell>
                             <TableCell>{user.Age}</TableCell>
@@ -63,8 +65,8 @@ const Allusers = () => {
                             <TableCell>{user.Industry}</TableCell>
                             <TableCell>{user.Best}</TableCell>
                             <TableCell>
-                                <Button variant="outlined" style={{marginRight:10}} component={Link} to={`/edit/${user.id}`}>Edit</Button>
-                                <Button variant="contained" onClick = {() => deleteUserData(user.id)}>Delete</Button>
+                                <Button variant="outlined" startIcon={<EditIcon />} component={Link} to={`/edit/${user.id}`}>Edit</Button>
+                                <Button variant="contained" startIcon={<DeleteIcon />} style={{marginLeft:10,backgroundColor:'#dc3545'}} onClick = {() => deleteUserData(user.id)}>Delete</Button>
                             </TableCell>
                         </TableRow>
                     ))

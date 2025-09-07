@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "json-server" : "json-server --watch src/database/db.json --host 127.0.0.1 --port 3002",
+    "json-server": "json-server --watch src/database/db.json --host 127.0.0.1 --port 3002",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -13,6 +13,7 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.2",
     "@mui/material": "^7.3.2",
     "axios": "^1.11.0",
     "json-server": "^1.0.0-beta.3",
