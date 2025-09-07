@@ -44,7 +44,7 @@ const Allusers = () => {
             <TableHead>
                 <TableRow>
                     <TableCell>Name</TableCell>
-                    <TableCell>Parent's Name</TableCell>
+                    <TableCell>Parent / Spouse</TableCell>
                     <TableCell>Age</TableCell>
                     <TableCell>Sex</TableCell>
                     <TableCell>Country / City</TableCell>
@@ -58,10 +58,10 @@ const Allusers = () => {
                     users.map(user => (
                         <TableRow key={user.id}> 
                             <TableCell>{user.Name}</TableCell>
-                            <TableCell>{user.Parentname}</TableCell>
+                            <TableCell>{user.PSname}</TableCell>
                             <TableCell>{user.Age}</TableCell>
                             <TableCell>{user.Sex}</TableCell>
-                            <TableCell>{user.Country}</TableCell>
+                            <TableCell>{user.City}</TableCell>
                             <TableCell>{user.Industry}</TableCell>
                             <TableCell>{user.Best}</TableCell>
                             <TableCell>

@@ -2,7 +2,7 @@
   "users": [
     {
       "Name": "Shah Rukh Khan",
-      "Parentname": "Meer Taj Mohammed Khan",
+      "PSname": "Meer Taj Mohammed Khan",
       "Age": 59,
       "Sex": "Male",
       "Country": "India",
@@ -14,7 +14,7 @@
     {
       "id": "3",
       "Name": "Virat Kohli",
-      "Parentname": "Saroj Kohli",
+      "PSname": "Saroj Kohli",
       "Age": "36",
       "Sex": "Male",
       "Country": "India",
@@ -25,7 +25,7 @@
     {
       "id": "9796",
       "Name": "Vidya Balan",
-      "Parentname": "P. R Balan",
+      "PSname": "P. R Balan",
       "Age": "46",
       "Sex": "Female",
       "Country": "India",
@@ -36,7 +36,7 @@
     {
       "id": "515f",
       "Name": "Maria Sharapova",
-      "Parentname": "Yuri Sharapov",
+      "PSname": "Yuri Sharapov",
       "Age": "38",
       "Sex": "Female",
       "Country": "Russia",

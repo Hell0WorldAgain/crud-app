@@ -15,7 +15,7 @@ const Container = styled(FormGroup)`
 
     const initialValue = {
         Name : "",
-        Parentname : "",
+        PSname : "",
         Age : "",
         Sex: "",
         City : "",
@@ -48,8 +48,8 @@ const Adduser = () => {
                 <Input name= "Name" onChange = {(e) => onValueChange(e)}/>
             </FormControl>
             <FormControl>
-                <InputLabel>Parent's Name</InputLabel>
-                <Input name= "Parentname" onChange = {(e) => onValueChange(e)}/>
+                <InputLabel>Parent / Spouse</InputLabel>
+                <Input name= "PSname" onChange = {(e) => onValueChange(e)}/>
             </FormControl>
             <FormControl>
                 <InputLabel>Age</InputLabel>
