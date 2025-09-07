@@ -1,6 +1,8 @@
 import { useState } from 'react';
-
 import { FormGroup, FormControl, InputLabel, Input, Button, Typography, styled } from '@mui/material'
+import { useNavigate } from 'react-router-dom';
+
+import {addUser} from '../services/api'
 
 const Conatiner = styled(FormGroup)`
     width: 100%;
@@ -17,22 +19,29 @@ const Conatiner = styled(FormGroup)`
         Age : "",
         Sex: "",
         Hometown : "",
-        Bestfilm : ""
+        Industry: "",
+        Best : ""
     }
 
 const Adduser = () => {
 
     const [user, setUser] = useState(initialValue);
+    const navigate = useNavigate();
 
     const onValueChange = (e) => {
         // console.log("Hello ", e.target.value, e.target.name);
         setUser({...user, [e.target.name] : e.target.value})
-        console.log(user)
+        //console.log(user)
+    }
+
+    const addUserDetails = async () => {
+        await addUser(user);
+        navigate('/all');
     }
 
     return (
         <Conatiner>
-            <Typography variant="h3"> Add Actor/Actress Details </Typography>
+            <Typography variant="h3"> Add Any Celebrity's Details </Typography>
             <br />
             <FormControl>
                 <InputLabel>Name</InputLabel>
@@ -55,12 +64,16 @@ const Adduser = () => {
                 <Input name= "Hometown" onChange = {(e) => onValueChange(e)}/>
             </FormControl>
             <FormControl>
-                <InputLabel>Best Film, Known For</InputLabel>
-                <Input name= "Bestfilm" onChange = {(e) => onValueChange(e)}/>
+                <InputLabel>Industry</InputLabel>
+                <Input name= "Industry" onChange = {(e) => onValueChange(e)}/>
+            </FormControl>
+            <FormControl>
+                <InputLabel>Best Known For</InputLabel>
+                <Input name= "Best" onChange = {(e) => onValueChange(e)}/>
             </FormControl>
             <br />
             <FormControl>
-            <Button variant = "contained"> Add Details</Button>
+            <Button variant = "contained" onClick={() => addUserDetails()}> Add Details</Button>
             </FormControl>
         </Conatiner>
 
