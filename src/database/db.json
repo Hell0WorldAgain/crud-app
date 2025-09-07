@@ -8,10 +8,10 @@
       "Hometown": "New Delhi",
       "Industry": "Bollywood Actor",
       "Best": "Dilwale",
-      "id": 1
+      "id": "1"
     },
     {
-      "id": 2,
+      "id": "2",
       "Name": "Salman Khan",
       "Parentname": "Saleem Khan",
       "Age": "59",
@@ -21,13 +21,13 @@
       "Best": "Tiger"
     },
     {
-      "id": 3,
+      "id": "3",
       "Name": "Virat Kohli",
       "Parentname": "Saroj Kohli",
       "Age": "36",
       "Sex": "Male",
       "Hometown": "New Delhi",
-      "Industry": "International Cricketer",
+      "Industry": "Indian Cricketer",
       "Best": "765 runs & POTT in 2023 ODI world cup"
     },
     {
@@ -38,7 +38,7 @@
       "Sex": "Female",
       "Hometown": "Kerala",
       "Industry": "Bollywood Actress",
-      "Best": "Dirty Picture"
+      "Best": "Kahani"
     }
   ]
 }

@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 import {addUser} from '../services/api'
 
-const Conatiner = styled(FormGroup)`
+const Container = styled(FormGroup)`
     width: 100%;
     margin: 15% auto;
 
@@ -40,7 +40,7 @@ const Adduser = () => {
     }
 
     return (
-        <Conatiner>
+        <Container>
             <Typography variant="h3"> Add Any Celebrity's Details </Typography>
             <br />
             <FormControl>
@@ -75,7 +75,7 @@ const Adduser = () => {
             <FormControl>
             <Button variant = "contained" onClick={() => addUserDetails()}> Add Details</Button>
             </FormControl>
-        </Conatiner>
+        </Container>
 
     )
 }
