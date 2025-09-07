@@ -18,7 +18,7 @@ const Container = styled(FormGroup)`
         Parentname : "",
         Age : "",
         Sex: "",
-        Hometown : "",
+        City : "",
         Industry: "",
         Best : ""
     }
@@ -29,7 +29,7 @@ const Adduser = () => {
     const navigate = useNavigate();
 
     const onValueChange = (e) => {
-        // console.log("Hello ", e.target.value, e.target.name);
+        // console.log(e.target.value, e.target.name);
         setUser({...user, [e.target.name] : e.target.value})
         //console.log(user)
     }
@@ -60,8 +60,8 @@ const Adduser = () => {
                 <Input name= "Sex" onChange = {(e) => onValueChange(e)}/>
             </FormControl>
             <FormControl>
-                <InputLabel>Hometown</InputLabel>
-                <Input name= "Hometown" onChange = {(e) => onValueChange(e)}/>
+                <InputLabel>Country / City</InputLabel>
+                <Input name= "City" onChange = {(e) => onValueChange(e)}/>
             </FormControl>
             <FormControl>
                 <InputLabel>Industry</InputLabel>

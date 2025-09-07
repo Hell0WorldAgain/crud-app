@@ -20,9 +20,9 @@ const Navbar = () => {
     return (
         <Header>
             <Tab>
-                <Options to ="/" >Hello There!</Options>
-                <Options to ="/all" >All Users</Options>
-                <Options to ="/add" >Add User</Options>
+                <Options to ="/" >Hi!</Options>
+                <Options to ="/all" >View All Celebrity</Options>
+                <Options to ="/add" >Add A Celebrity</Options>
             </Tab>
         </Header>
     )

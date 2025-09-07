@@ -18,7 +18,7 @@ const Container = styled(FormGroup)`
         Parentname : "",
         Age : "",
         Sex: "",
-        Hometown : "",
+        City : "",
         Industry: "",
         Best : ""
     }
@@ -71,8 +71,8 @@ const Edituser = () => {
                 <Input name= "Sex" onChange = {(e) => onValueChange(e)} value={user.Sex}/>
             </FormControl>
             <FormControl>
-                <InputLabel>Hometown</InputLabel>
-                <Input name= "Hometown" onChange = {(e) => onValueChange(e)} value={user.Hometown}/>
+                <InputLabel>Country / City</InputLabel>
+                <Input name= "City" onChange = {(e) => onValueChange(e)} value={user.City}/>
             </FormControl>
             <FormControl>
                 <InputLabel>Industry</InputLabel>

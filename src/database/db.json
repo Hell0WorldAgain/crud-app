@@ -5,7 +5,7 @@
       "Parentname": "Meer Taj Mohammed Khan",
       "Age": 59,
       "Sex": "Male",
-      "Hometown": "New Delhi",
+      "Country": "India",
       "Industry": "Bollywood Actor",
       "Best": "Dilwale",
       "id": "1"
@@ -16,7 +16,7 @@
       "Parentname": "Saroj Kohli",
       "Age": "36",
       "Sex": "Male",
-      "Hometown": "New Delhi",
+      "Country": "India",
       "Industry": "Indian Cricketer",
       "Best": "765 runs & POTT in 2023 ODI world cup"
     },
@@ -26,9 +26,19 @@
       "Parentname": "P. R Balan",
       "Age": "46",
       "Sex": "Female",
-      "Hometown": "Kerala",
+      "Country": "India",
       "Industry": "Bollywood Actress",
       "Best": "Kahani"
+    },
+    {
+      "id": "515f",
+      "Name": "Maria Sharapova",
+      "Parentname": "Yuri Sharapov",
+      "Age": "38",
+      "Sex": "Female",
+      "Country": "Russia",
+      "Industry": "International Tennis Player",
+      "Best": "Won all four major tournaments"
     }
   ]
 }
