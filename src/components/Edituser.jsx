@@ -52,7 +52,7 @@ const Edituser = () => {
 
     return (
         <Container>
-            <Typography variant="h3"> Edit Details </Typography>
+            <Typography variant="h3"> Edit required Details </Typography>
             <br />
             <FormControl>
                 <InputLabel>Name</InputLabel>
@@ -60,7 +60,7 @@ const Edituser = () => {
             </FormControl>
             <FormControl>
                 <InputLabel>Parent / Spouse</InputLabel>
-                <Input name= "Parentname" onChange = {(e) => onValueChange(e)} value={user.Parentname}/>
+                <Input name= "PSname" onChange = {(e) => onValueChange(e)} value={user.PSname}/>
             </FormControl>
             <FormControl>
                 <InputLabel>Age</InputLabel>
