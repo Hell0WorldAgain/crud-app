@@ -52,7 +52,7 @@ const Edituser = () => {
 
     return (
         <Container>
-            <Typography variant="h3"> Edit required Details </Typography>
+            <Typography variant="h4"> Edit required Details </Typography>
             <br />
             <FormControl>
                 <InputLabel>Name</InputLabel>

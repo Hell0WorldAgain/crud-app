@@ -41,7 +41,7 @@ const Adduser = () => {
 
     return (
         <Container>
-            <Typography variant="h3"> Add Any Celebrity's Details </Typography>
+            <Typography variant="h4"> Add Any Celebrity's Details </Typography>
             <br />
             <FormControl>
                 <InputLabel>Name</InputLabel>

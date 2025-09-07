@@ -4,10 +4,10 @@ import { Typography } from '@mui/material';
 
 const Home = () => {
     return (
-        <div style={{textAlign: 'center', margin: '5% auto',width: '60%' }}>
-            <Typography variant="h1">Hi, there!</Typography>
+        <div style={{textAlign: 'center', margin: '5% auto',width: '70%' }}>
+            <Typography variant="h2">Hi, there!</Typography>
             <br /> <br />
-            <Typography variant="h3">Welcome to the Celebrity Directory!</Typography>
+            <Typography variant="h4">Welcome to the Celebrity Directory!</Typography>
             <br /> <br />
             <Typography>
                 This simple and interactive web app lets you explore a growing list of celebrities from around the world. Whether you're a fan of actors, musicians, athletes, or influencers, you'll find interesting profiles here!
